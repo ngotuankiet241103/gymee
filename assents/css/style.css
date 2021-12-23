@@ -173,6 +173,9 @@ html{
     border: 3px solid #e63a34;
     border-radius: 10px;
 }
+.icon .icon-bar:hover{
+    cursor: pointer;
+}
 .over-lay{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.301) ;
@@ -1007,7 +1010,8 @@ tbody tr .active:hover .hover{
     }
 }
 .box-items button:hover .item-button{
-    display: block; 
+    display: block;
+    cursor: pointer;
 }
 .say{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.397)) , url(../img/testimonial-bg-2.jpg);
@@ -1160,9 +1164,11 @@ hr{
     display: none;
 }
 .img-product:hover .icon-buy{
-    cursor: pointer;
     display: block;
     animation: scaleBuy 0.5s linear forwards;
+}
+.icon-buy i:hover{
+    cursor: pointer;
 }
 @keyframes scaleBuy {
     to{
@@ -1192,7 +1198,11 @@ hr{
     color: #fff;
     border: none;
 }
+.icon-buy  button:hover{
+    cursor: pointer;
+}
 .icon-buy  button:hover i{
+    
     animation: spiner 0.5s linear forwards;
 }
 .box-img-product p:nth-child(2){
@@ -1410,8 +1420,10 @@ hr{
     color: #fff;
     font-weight: 600;
 }
-.col-4 button:hover i{
+.col-4 button:hover{
     cursor: pointer;
+}
+.col-4 button:hover i{
     animation: spiner 0.5s ease;
 }
 .footer-bottom{
