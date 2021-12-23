@@ -540,7 +540,7 @@ h3{
 .service::after{
     content: "";
     position: absolute;
-    background-image: url(assents/img/shape-7.png);
+    background-image: url(../img/shape-7.png);
     background-repeat: no-repeat;
     height: 224px;
     width: 383px;
@@ -797,7 +797,7 @@ tbody tr .active:hover .hover{
     display: flex;
 }
 .calc-left{
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(./img/calculator-bg-1.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(../img/calculator-bg-1.jpg);
     width: 50%;
     background-position: center;
     display: flex;
@@ -1088,14 +1088,14 @@ hr{
     height: 1100px;
     background-color: rgba(0, 0, 0, 0.877);
     padding-top: 70px;
-    background-image: url(./img/shape-12.png);
+    background-image: url(../img/shape-12.png);
     background-repeat: no-repeat;
     position: relative;
 }
 .product::before{
     content: "";
     position: absolute;
-    background-image: url(./img/icon-2.png);
+    background-image: url(../img/icon-2.png);
     bottom: 10px;
     left: 20px;
     width: 150px;
