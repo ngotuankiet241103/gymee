@@ -258,7 +258,7 @@ footer i:hover{
     opacity: 1;
 }
 .slider{
-    background-image: url(assents/img/slider-2.jpg);
+    background-image: url(..assents/img/slider-2.jpg);
     width: 100%;
     height: 800px;
     display: flex;
@@ -510,7 +510,7 @@ h3{
     }
 }
 .service{
-    background-image: url(assents/img/service-bg.jpg);
+    background-image: url(..assents/img/service-bg.jpg);
     height: 900px;
     background-size: cover;
     background-position: center;
@@ -529,7 +529,7 @@ h3{
 .service::before{
     content: "";
     position: absolute;
-    background-image: url(assents/img/shape-6.png);
+    background-image: url(..assents/img/shape-6.png);
     background-repeat: no-repeat;
     top: 0;
     bottom: 0;
@@ -539,7 +539,7 @@ h3{
 .service::after{
     content: "";
     position: absolute;
-    background-image: url(assents/img/shape-7.png);
+    background-image: url(..assents/img/shape-7.png);
     background-repeat: no-repeat;
     height: 224px;
     width: 383px;
@@ -672,7 +672,7 @@ h3{
 .schedule::before{
     content: "";
     position: absolute;
-    background-image: url(assents/img/shape-8.png);
+    background-image: url(..assents/img/shape-8.png);
     width: 542px;
     height: 551px;
     bottom: 0;
@@ -681,7 +681,7 @@ h3{
 .schedule::after{
     content: "";
     position: absolute;
-    background-image: url(assents/img/shape-10.png);
+    background-image: url(..assents/img/shape-10.png);
     width: 200px;
     height: 206px;
     top: -40px;
@@ -796,7 +796,7 @@ tbody tr .active:hover .hover{
     display: flex;
 }
 .calc-left{
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(assents/img/calculator-bg-1.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(..assents/img/calculator-bg-1.jpg);
     width: 50%;
     background-position: center;
     display: flex;
@@ -843,7 +843,7 @@ tbody tr .active:hover .hover{
 }
     
 .calc-right{
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(assents/img/calculator-bg-2.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(..assents/img/calculator-bg-2.jpg);
     width: 50%;
     background-position: center;
     display: flex;
@@ -908,7 +908,7 @@ tbody tr .active:hover .hover{
     align-items: center;
     padding: 50px 50px;  
     position: relative;
-    background-image: url(assents/img/shape-11.png);
+    background-image: url(..assents/img/shape-11.png);
     background-repeat: no-repeat;
     background-position: top 0 right 50%;
 }
@@ -1009,7 +1009,7 @@ tbody tr .active:hover .hover{
     display: block; 
 }
 .say{
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.397)) , url(assents/img/testimonial-bg-2.jpg);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.397)) , url(..assents/img/testimonial-bg-2.jpg);
     height: 1200px;
     background-position: center;
     background-size: cover;
@@ -1021,7 +1021,7 @@ tbody tr .active:hover .hover{
 .say::before{
     content: "";
     position: absolute;
-    background-image: url(assents/img/quote.png);
+    background-image: url(..assents/img/quote.png);
     background-repeat: no-repeat;
     bottom: 10px;
     right: 20px;
@@ -1087,14 +1087,14 @@ hr{
     height: 1100px;
     background-color: rgba(0, 0, 0, 0.877);
     padding-top: 70px;
-    background-image: url(assents/img/shape-12.png);
+    background-image: url(..assents/img/shape-12.png);
     background-repeat: no-repeat;
     position: relative;
 }
 .product::before{
     content: "";
     position: absolute;
-    background-image: url(assents/img/icon-2.png);
+    background-image: url(..assents/img/icon-2.png);
     bottom: 10px;
     left: 20px;
     width: 150px;
@@ -1217,7 +1217,7 @@ hr{
 .blog::before{
     content: "";
     position: absolute;
-    background-image: url(assents/img/shape-13.png);
+    background-image: url(..assents/img/shape-13.png);
     left: 0;
     bottom: 0;
     width: 500px;
@@ -1242,7 +1242,7 @@ hr{
 .image-blog-item::after{
     content: "";
     position: absolute;
-    background-image: url(assents/img/blog-bg.jpg);
+    background-image: url(..assents/img/blog-bg.jpg);
     top: 0;
     bottom: 0;
     right: 0;
