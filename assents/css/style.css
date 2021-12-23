@@ -259,7 +259,7 @@ footer i:hover{
 }
 .slider{
     
-    background-image: url(assents/img/slider-2.jpg);
+    background-image: url(/assents/img/slider-2.jpg);
     width: 100%;
     height: 800px;
     display: flex;
