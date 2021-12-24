@@ -561,7 +561,7 @@ h3{
 .service::after{
     content: "";
     position: absolute;
-    background-image: url(../img/shape-7.png);
+    background-image:  url(../img/shape-7.png);
     background-repeat: no-repeat;
     height: 224px;
     width: 383px;
@@ -611,6 +611,9 @@ h3{
     left: 0;
     justify-content: center;
     align-items: center;
+}
+.image-training:nth-child(3){
+    z-index: 10;
 }
 .text-content{
     position: absolute;
