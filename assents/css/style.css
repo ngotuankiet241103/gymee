@@ -24,7 +24,7 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-.nav-header{
+.nav-header.pc{
     display: flex;
     width: 55%;
     justify-content: space-around;
@@ -129,6 +129,7 @@ html{
     bottom: -110px;
     border-top: 3px solid #e63a34;
     display: none;
+    
 }
 .sub-nav-header:hover .sub-sub-nav.home,
 .sub-nav-header:hover .sub-sub-nav.pages,
@@ -183,6 +184,9 @@ html{
     animation: fadeIn linear 0.3s;
     
 }
+.over-lay.two{
+    display: none;
+}
 .side-bar{
     position: absolute;
     right: 0;
@@ -195,6 +199,16 @@ html{
     transition: all  ease-in 0.5s;
     opacity: 0;
     
+    
+}
+.side-bar.pc{
+    z-index: 99;
+}
+.side-bar.moblie{
+    display: none;
+}
+.side-bar.moble .menu-mobile .nav-header.mobile{
+    display: none;
 }
 .side-bar header{
     padding-bottom: 40px;
@@ -268,6 +282,9 @@ footer i:hover{
     display: flex;
     align-items: center;
     margin: 0 auto;
+    position: relative;
+    right: 0;
+    
 }
 .slider .row-text{
     width: 70%;
@@ -359,6 +376,7 @@ h3{
     max-height: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 .active .box {
@@ -421,7 +439,7 @@ h3{
 }
 .effect{
     padding: 130px 0px;
-    height: 1200px;
+    max-height: 1200px;
     background-color: #000;
     display: flex;
     justify-content: center;
@@ -583,6 +601,7 @@ h3{
     width: 85%;
     justify-content: space-between;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 .image-training{
     display: flex;
@@ -798,9 +817,11 @@ tbody tr .active:hover .hover{
     width: 100%;
     height: 550px;
     display: flex;
+    flex-wrap: wrap;
 }
 .calc-left{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(../img/calculator-bg-1.jpg);
+    background-repeat: no-repeat;
     width: 50%;
     background-position: center;
     display: flex;
@@ -848,6 +869,7 @@ tbody tr .active:hover .hover{
     
 .calc-right{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.507) ),url(../img/calculator-bg-2.jpg);
+    background-repeat: no-repeat;
     width: 50%;
     background-position: center;
     display: flex;
@@ -901,7 +923,8 @@ tbody tr .active:hover .hover{
     width: 85%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    flex-wrap: wrap; 
 }
 .box-container .box-items{
     width: 32%;
@@ -1045,6 +1068,7 @@ tbody tr .active:hover .hover{
 .person-say .author{
     margin-top: 100px;
     display: flex;
+    flex-wrap: wrap;
 }
 .person-say .author img{
     border-radius: 50%;
@@ -1121,6 +1145,8 @@ hr{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .box-img-product{
     position: relative;
@@ -1246,6 +1272,7 @@ hr{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .image-blog-item{
     position: relative;
@@ -1329,6 +1356,7 @@ hr{
     width: 85%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -1347,6 +1375,7 @@ hr{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap ;
     align-items: flex-start;
     color: #fff;
 
