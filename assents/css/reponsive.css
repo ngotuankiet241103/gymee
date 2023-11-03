@@ -14,36 +14,25 @@
         display: block;
         
     }
-    
-    .sub-sub-moblie.home,
-    .sub-sub-moblie.pages,
-    .sub-sub-moblie.contact,
-    .sub-sub-moblie.classes,
-    .sub-sub-moblie.blog-header,
-    .sub-sub-moblie.shop,
-    .sub-sub-moblie.gallery{  
+    .sub-nav-moblie{
+        position: relative;
+        
+    }
+    .sub-sub-moblie
+    {
         display: none;
-        padding: 10px 10px;
-        height: 220px;
         position: absolute;
-        bottom: 0;
+        top: calc(100%);
         left: 0;
         right: 0;
         background-color: #ccc;
-        transform: translateY(220px);
-        z-index: 55;
+        z-index: 99;
+        transition: tranform 0.5s ;
     }
-    .sub-sub-moblie.pages,.sub-sub-moblie.classes{
-        height: 300px;
-        transform: translateY(300px);
-    }
-    .sub-sub-moblie.blog-header,.sub-sub-moblie.shop,.sub-sub-moblie.contact{
-        height: 150px;
-        transform: translateY(150px);
-    }
+  
     .sub-sub-moblie li{
         list-style-type: none;
-        padding: 10px 0px;
+        padding: 10px 10px;
         border-bottom: 1px solid rgb(226, 221, 221);
     }
     .sub-sub-moblie li:hover{
@@ -66,9 +55,21 @@
     #open-close-shop:checked ~ .nav-header.molbie .sub-nav-moblie .sub-sub-moblie.shop,
     #open-close-gallery:checked ~  .nav-header.molbie .sub-nav-moblie .sub-sub-moblie.gallery,
     #open-close-contact:checked ~ .nav-header.molbie .sub-nav-moblie .sub-sub-moblie.contact{
-        display: block;
+       display: block;
+        animation: fadeDown 0.5s ease-in forwards;
+
     }
-        
+    @keyframes fadeDown{
+        from{
+            top: calc(100% -50px);
+            opacity: 0;
+        }
+        to{
+            top: calc(100% + 10px);
+            opacity: 1;
+        }
+    }
+    
     .side-bar.moblie header i{
         font-size: 40px;
     }
@@ -108,7 +109,7 @@
     }
 }
 /* tablet */
-@media only screen and (min-width: 736px) and (max-width:1023px) {
+@media only screen and (min-width: 739px) and (max-width:1023px) {
 .title-similar{
     font-size: 90px;
     z-index: 1;
